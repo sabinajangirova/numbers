@@ -23,7 +23,7 @@ namespace numbers
                 Console.WriteLine(numbers[i] + " " +IsPrime(numbers[i]) + " and " + IsEven(numbers[i]));
                 sum += numbers[i];
             }
-
+            
             Console.WriteLine("The sum is " + sum);
         }
 
@@ -43,7 +43,7 @@ namespace numbers
                 return "is not prime";
             } 
 
-            for(int i = 2; i < Math.Sqrt(n); i++)
+            for(int i = 2; i <= Math.Sqrt(n); i++)
             {
                 if(n%i == 0)
                 {
