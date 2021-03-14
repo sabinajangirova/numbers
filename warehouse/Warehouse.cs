@@ -8,14 +8,14 @@ namespace warehouse
 {
     public abstract class Warehouse
     {
-        protected string Address { get; }
-        protected long Surface { get; }
-        protected Employee Responsible { get; set; }
-        protected Dictionary<Product, long> ProductListing { get; set; }
+        public Address Location { get; }
+        public long Surface { get; }
+        public Employee Responsible { get; set; }
+        public Dictionary<Product, long> ProductListing { get; set; }
 
-        public Warehouse(string address, long surface, Employee responsible)
+        public Warehouse(Address l, long surface, Employee responsible)
         {
-            Address = address;
+            Location = l;
             Surface = surface;
             Responsible = responsible;
             ProductListing = new Dictionary<Product, long>();

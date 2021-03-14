@@ -10,28 +10,36 @@ namespace warehouse
     {
         static void Main(string[] args)
         {
-            Warehouse w1 = new OpenWarehouse("almaty", 100, new Employee("sabina", "security"));
-            Warehouse w2 = new OpenWarehouse("atyrau", 1000, new Employee("aizhan", "manager"));
-            Warehouse w3 = new ClosedWarehouse("astana", 1010, new Employee("madina", "leader"));
+            Warehouse w1 = new OpenWarehouse(new Address("Almaty", "Gogolya", 52, 050488), 50000, new Employee("Sabina", "security"));
+            Warehouse w2 = new OpenWarehouse(new Address("Almaty", "Shevchenko", 27, 050400), 10000000, new Employee("Aysana", "manager"));
+            Warehouse w3 = new ClosedWarehouse(new Address("Atyrau", "Azattyk", 2, 050008), 1000, new Employee("Tolkyn", "PR"));
+            Warehouse w4 = new ClosedWarehouse(new Address("Kostanay", "Satpayev", 13, 051405), 1120000, new Employee("Ben", "volunteer"));
 
-            Console.WriteLine(w1.AddProduct(new PieceProduct("chocolate", "0110082", 90, "sweet"), 100));
-            Console.WriteLine(w1.AddProduct(new PieceProduct("chocolate", "0110082", 90, "sweet"), 100));
-            Console.WriteLine(w1.AddProduct(new PieceProduct("cheese", "01100/4", 1000, "yellow"), 100));
+            w1.AddProduct(new PieceProduct("Cookies", "0000001", 10, "Crispy"), 800);
+            w1.AddProduct(new PowderedProduct("Flour", "0008821", 3, "White"), 100000);
+            w1.AddProduct(new LiquidProduct("Oil", "0840001", 50, "Rasp"), 98040);
+            w1.AddProduct(new MassiveProduct("Car", "9520001", 20000, "Black"), 2);
 
-            Console.WriteLine(w2.AddProduct(new PowderedProduct("flour", "0110482", 5, "white"), 85));
-            Console.WriteLine(w2.AddProduct(new LiquidProduct("juice", "05292", 20, "refreshing"), 50));
-            Console.WriteLine(w2.AddProduct(new MassiveProduct("car", "859f8r", 10000, "cheap"), 2));
+            w2.AddProduct(new PieceProduct("Cookies", "0000001", 10, "Crispy"), 100);
+            w2.AddProduct(new PowderedProduct("Flour", "0008821", 3, "White"), 10000000000);
+            w2.AddProduct(new LiquidProduct("Oil", "0840001", 50, "Rasp"), 600);
+            w2.AddProduct(new MassiveProduct("Car", "9520001", 20000, "Black"), 4);
 
-            Console.WriteLine(w3.AddProduct(new PieceProduct("pencil", "0182082", 10, "sharp"), 1000));
-            Console.WriteLine(w3.AddProduct(new PowderedProduct("flour", "0110482", 5, "white"), 85));
+            w3.AddProduct(new PieceProduct("Cookies", "0000001", 10, "Crispy"), 10);
+            w3.AddProduct(new PowderedProduct("Flour", "0008821", 3, "White"), 100);
+            w3.AddProduct(new LiquidProduct("Oil", "0840001", 50, "Rasp"), 500);
+            w3.AddProduct(new MassiveProduct("Car", "9520001", 20000, "Black"), 1);
 
-            Console.WriteLine(w1.Search("000000"));
-            Console.WriteLine(w1.Search("0110082"));
-            Console.WriteLine(w2.Search("0110482"));
+            w4.AddProduct(new PieceProduct("Cookies", "0000001", 10, "Crispy"), 602);
+            w4.AddProduct(new PowderedProduct("Flour", "0008821", 3, "White"), 85);
+            w4.AddProduct(new LiquidProduct("Oil", "0840001", 50, "Rasp"), 100);
+            w4.AddProduct(new MassiveProduct("Car", "9520001", 20000, "Black"), 1000);
 
-            Console.WriteLine(w1.OverallPrice());
-            Console.WriteLine(w2.OverallPrice());
-            Console.WriteLine(w2.OverallPrice());
+            Console.WriteLine(w1.Search("0840001"));
+            Console.WriteLine(w1.Search("0008821"));
+            Console.WriteLine(w3.Search("0008821"));
+
+            Console.WriteLine(w1.OverallPrice() + w2.OverallPrice() + w3.OverallPrice() + w4.OverallPrice());
         }
     }
 }

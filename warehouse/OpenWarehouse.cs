@@ -8,7 +8,7 @@ namespace warehouse
 {
     public class OpenWarehouse : Warehouse
     {
-        public OpenWarehouse(string address, long surface, Employee responsible) : base(address, surface, responsible)
+        public OpenWarehouse(Address address, long surface, Employee responsible) : base(address, surface, responsible)
         {
         }
         public override bool AddProduct(Product p, long amount)
