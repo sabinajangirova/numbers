@@ -16,12 +16,29 @@ namespace warehouse
             Warehouse w4 = new ClosedWarehouse(new Address("Kostanay", "Satpayev", 13, 051405), 1120000, new Employee("Ben", "volunteer"));
 
             w1.AddProduct(new PieceProduct("Cookies", "0000001", 10, "Crispy"), 800);
-            w1.AddProduct(new PowderedProduct("Flour", "0008821", 3, "White"), 100000);
+            try
+            {
+                w1.AddProduct(new PowderedProduct("Flour", "0008821", 3, "White"), 100000);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            
             w1.AddProduct(new LiquidProduct("Oil", "0840001", 50, "Rasp"), 98040);
             w1.AddProduct(new MassiveProduct("Car", "9520001", 20000, "Black"), 2);
 
             w2.AddProduct(new PieceProduct("Cookies", "0000001", 10, "Crispy"), 100);
-            w2.AddProduct(new PowderedProduct("Flour", "0008821", 3, "White"), 10000000000);
+
+            try
+            {
+                w2.AddProduct(new PowderedProduct("Flour", "0008821", 3, "White"), 10000000000);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            
             w2.AddProduct(new LiquidProduct("Oil", "0840001", 50, "Rasp"), 600);
             w2.AddProduct(new MassiveProduct("Car", "9520001", 20000, "Black"), 4);
 

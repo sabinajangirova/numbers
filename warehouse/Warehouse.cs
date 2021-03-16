@@ -21,7 +21,7 @@ namespace warehouse
             ProductListing = new Dictionary<Product, long>();
         }
 
-        public abstract bool AddProduct(Product p, long amount);
+        public abstract bool AddProduct (Product p, long amount);
 
         public void SetResponsible(Employee person)
         {
@@ -34,21 +34,29 @@ namespace warehouse
             {
                 if (ProductListing[p] >= amount)
                 {
-                    if(w.AddProduct(p, amount))
+                    try
                     {
+                        w.AddProduct(p, amount);
                         ProductListing[p] -= amount;
                         return true;
                     }
-                 
+                    catch (Exception ex)
+                    {
+                        Console.WriteLine(ex.Message);
+                    }
                 }
                 else
                 {
-                    if(w.AddProduct(p, ProductListing[p]))
+                    try
                     {
+                        w.AddProduct(p, ProductListing[p]);
                         ProductListing[p] = 0;
                         return true;
                     }
-       
+                    catch (Exception ex)
+                    {
+                        Console.WriteLine(ex.Message);
+                    }
                 }
             }
 
