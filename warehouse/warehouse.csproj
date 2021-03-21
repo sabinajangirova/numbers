@@ -44,13 +44,17 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Address.cs" />
-    <Compile Include="MassiveProduct.cs" />
-    <Compile Include="PieceProduct.cs" />
-    <Compile Include="LiquidProduct.cs" />
-    <Compile Include="PowderedProduct.cs" />
+    <Compile Include="Events\OnAddArg.cs" />
+    <Compile Include="Extensions\ProductExtensions.cs" />
+    <Compile Include="Extensions\WarehouseExtensions.cs" />
+    <Compile Include="Products\MassiveProduct.cs" />
+    <Compile Include="Products\PieceProduct.cs" />
+    <Compile Include="Products\LiquidProduct.cs" />
+    <Compile Include="Products\PowderedProduct.cs" />
     <Compile Include="ClosedWarehouse.cs" />
     <Compile Include="OpenWarehouse.cs" />
-    <Compile Include="Product.cs" />
+    <Compile Include="Products\Product.cs" />
+    <Compile Include="Reports\WarehouseReports.cs" />
     <Compile Include="Warehouse.cs" />
     <Compile Include="Employee.cs" />
     <Compile Include="Program.cs" />

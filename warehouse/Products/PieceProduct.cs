@@ -9,7 +9,7 @@ namespace warehouse
     public class PieceProduct : Product
     {
         public PieceProduct(string name, string code, decimal price, string description) : base(name, code, price, description) {
-            Measure Unit = Measure.units;
+            Unit = Measurment.units;
         }
     }
 }

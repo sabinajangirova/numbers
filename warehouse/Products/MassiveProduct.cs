@@ -9,7 +9,7 @@ namespace warehouse
     public class MassiveProduct : Product
     {
         public MassiveProduct(string name, string code, decimal price, string description) : base(name, code, price, description) {
-            Measure Unit = Measure.tons;
+            Unit = Measurment.tons;
         }
     }
 }

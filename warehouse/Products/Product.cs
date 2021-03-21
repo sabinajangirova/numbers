@@ -8,18 +8,20 @@ namespace warehouse
 {
     public abstract class Product
     {
-        public enum Measure
-        {
-            kilograms,
-            liters,
-            units,
-            tons
-        }
         public string Name { get; }
         public string Code { get; }
         public decimal Price { get; }
         public string Description { get; }
-        public Measure Unit { get; }
+        
+        public enum Measurment
+        {
+            kilograms, 
+            litres, 
+            units,
+            tons
+        }
+
+        public Measurment Unit { get; set; }
         public Product(string name, string code, decimal price, string description)
         {
             Name = name;

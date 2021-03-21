@@ -9,7 +9,7 @@ namespace warehouse
     public class PowderedProduct : Product
     {
         public PowderedProduct(string name, string code, decimal price, string description) : base(name, code, price, description) {
-            Measure Unit = Measure.kilograms;
+            Unit = Measurment.kilograms;
         }
     }
 }

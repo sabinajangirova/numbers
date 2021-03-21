@@ -9,7 +9,7 @@ namespace warehouse
     public class LiquidProduct : Product
     {
         public LiquidProduct(string name, string code, decimal price, string description) : base(name, code, price, description) {
-            Measure Unit = Measure.liters;
+            Unit = Measurment.litres;
         }
     }
 
