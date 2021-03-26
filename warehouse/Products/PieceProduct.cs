@@ -11,5 +11,10 @@ namespace warehouse
         public PieceProduct(string name, string code, decimal price, string description) : base(name, code, price, description) {
             Unit = Measurment.units;
         }
+
+        public override string ToString()
+        {
+            return $"{Name} - {Price} for 1 unit. {Description}. Type: Piece";
+        }
     }
 }

@@ -11,6 +11,11 @@ namespace warehouse
         public LiquidProduct(string name, string code, decimal price, string description) : base(name, code, price, description) {
             Unit = Measurment.litres;
         }
+
+        public override string ToString()
+        {
+            return $"{Name} - {Price} for 1 liter. {Description}. Type: Liquid";
+        }
     }
 
 }

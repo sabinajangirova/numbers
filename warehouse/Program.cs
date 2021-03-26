@@ -27,8 +27,8 @@ namespace warehouse
                 Console.WriteLine(ex.Message);
             }
 
-            w1.OnAdd += Warehouse.OnAddHandler;
-            w1.OnAdd2 += Warehouse.OnAddInvalid;
+            w1.Notify += OnAdding;
+            w1.Notify += OnAdding;
 
             w1.AddProduct(new PieceProduct("Cookies", "0000001", 10, "Crispy"), 800);
             try
@@ -43,8 +43,8 @@ namespace warehouse
             w1.AddProduct(new LiquidProduct("Oil", "0840001", 50, "Rasp"), 98040);
             w1.AddProduct(new PieceProduct("Car", "9520001", 20000, "Black"), 2);
 
-            w2.OnAdd += Warehouse.OnAddHandler;
-            w2.OnAdd2 += Warehouse.OnAddInvalid;
+            w2.Notify += OnAdding;
+            w2.Notify += OnAdding;
 
             w2.AddProduct(new PieceProduct("Cookies", "0000001", 10, "Crispy"), 100);
 
@@ -60,14 +60,14 @@ namespace warehouse
             w2.AddProduct(new LiquidProduct("Oil", "0840001", 50, "Rasp"), 600);
             w2.AddProduct(new PieceProduct("Car", "9520001", 20000, "Black"), 4);
 
-            w3.OnAdd += Warehouse.OnAddHandler;
+            w3.Notify += OnAdding;
 
             w3.AddProduct(new PieceProduct("Cookies", "0000001", 10, "Crispy"), 10);
             w3.AddProduct(new PowderedProduct("Flour", "0008821", 3, "White"), 100);
             w3.AddProduct(new LiquidProduct("Oil", "0840001", 50, "Rasp"), 500);
             w3.AddProduct(new PieceProduct("Car", "9520001", 20000, "Black"), 1);
 
-            w4.OnAdd += Warehouse.OnAddHandler;
+            w4.Notify += OnAdding;
 
             w4.AddProduct(new PieceProduct("Cookies", "0000001", 10, "Crispy"), 602);
             w4.AddProduct(new PowderedProduct("Flour", "0008821", 3, "White"), 85);
@@ -111,18 +111,25 @@ namespace warehouse
             {
                 Console.WriteLine($"{p.Key} {p.Value}");
             }
+
+            w3.FileProducts(@"C:\Users\Мечта\source\repos\numbers\warehouse\1.csv");
+
+            foreach(KeyValuePair<string, Product> p in DirectorySingleTon.Instance.DataBase)
+            {
+                Console.WriteLine(p.Key + " " + p.Value.ToString());
+            }
         }
 
-        /*public static void w_OnAdding(Warehouse sender, OnAddArg e)
+        public static void OnAdding(Warehouse sender, OnAddArg e)
         {
             if (sender.ProductListing.ContainsKey(e.Pt))
             {
-                Console.WriteLine($"The amount of {e.Pt.Name} on the warehouse  was {sender.ProductListing[e.Pt]}, added {e.Amount} {e.p.Unit} at time {e.Time}");
+                Console.WriteLine($"The amount of {e.Pt.Name} on the warehouse  was {sender.ProductListing[e.Pt]}, added {e.Amount} {e.Pt.Unit} at time {e.Time}");
             }
             else
             {
                 Console.WriteLine($"The amount of {e.Pt.Name} on the warehouse  was 0, added {e.Amount} {e.Pt.Unit} at time {e.Time}");
             }
-        }*/
+        }
     }
 }

@@ -43,5 +43,7 @@ namespace warehouse
             }
             else return Code == ((Product)obj).Code;
         }
+
+        public abstract override string ToString();
     }
 }

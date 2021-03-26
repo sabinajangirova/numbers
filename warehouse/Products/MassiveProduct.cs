@@ -11,6 +11,11 @@ namespace warehouse
         public MassiveProduct(string name, string code, decimal price, string description) : base(name, code, price, description) {
             Unit = Measurment.tons;
         }
+
+        public override string ToString()
+        {
+            return $"{Name} - {Price} for 1 tone. {Description}. Type: Massive";
+        }
     }
 }
 

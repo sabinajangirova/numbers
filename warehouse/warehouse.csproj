@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Address.cs" />
+    <Compile Include="DirectorySingleTon.cs" />
     <Compile Include="Events\OnAddArg.cs" />
     <Compile Include="Extensions\ProductExtensions.cs" />
     <Compile Include="Extensions\WarehouseExtensions.cs" />
@@ -61,6 +62,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="1.csv" />
     <None Include="App.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
