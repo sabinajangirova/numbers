@@ -15,8 +15,8 @@ namespace warehouse
         public Employee Responsible { get; set; }
         public Dictionary<Product, long> ProductListing { get; set; }
         
-        public delegate void AccountHandler(Warehouse sender, OnAddArg e);
-        public event AccountHandler Notify;
+        public delegate void AddHandler(Warehouse sender, OnAddArg e);
+        public event AddHandler Notify;
         public Warehouse(Address l, long surface, Employee responsible)
         {
             Location = l;
@@ -38,7 +38,7 @@ namespace warehouse
                 throw new Exception("You cannot add a powdered product to the open warehouse");
             }
 
-            Notify?.Invoke(this, new OnAddArg(DateTime.Now, amount, p, $"Successfully added a powdered product {p.Name} in amount of {amount} {p.Unit} to an open warehouse at time {DateTime.Now}"));
+            Notify?.Invoke(this, new OnAddArg(DateTime.Now, amount, p, $"Successfully added a product {p.Name} in amount of {amount} {p.Unit} to an open warehouse at time {DateTime.Now}"));
             if (ProductListing.ContainsKey(p))
             {
                 ProductListing[p] += amount;

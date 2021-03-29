@@ -46,8 +46,12 @@
     <Compile Include="Address.cs" />
     <Compile Include="DirectorySingleTon.cs" />
     <Compile Include="Events\OnAddArg.cs" />
+    <Compile Include="Events\OnAddCommandArg.cs" />
     <Compile Include="Extensions\ProductExtensions.cs" />
     <Compile Include="Extensions\WarehouseExtensions.cs" />
+    <Compile Include="Patterns\Command\AddCommand.cs" />
+    <Compile Include="Patterns\Command\ICommand.cs" />
+    <Compile Include="Patterns\Command\Invoker.cs" />
     <Compile Include="Products\MassiveProduct.cs" />
     <Compile Include="Products\PieceProduct.cs" />
     <Compile Include="Products\LiquidProduct.cs" />
