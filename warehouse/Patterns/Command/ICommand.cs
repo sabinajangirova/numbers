@@ -7,9 +7,8 @@ using System.Threading.Tasks;
 namespace warehouse.Patterns.Command
 {
     public interface ICommand
-    {
-        bool IsCompleted { get; set; }
+    {        
         void Execute();
-        void Unexecute();
+       // void Unexecute();
     }
 }

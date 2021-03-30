@@ -19,12 +19,21 @@ namespace warehouse
             Warehouse w4 = new ClosedWarehouse(new Address("Kostanay", "Satpayev", 13, 051405), 1120000, new Employee("Ben", "volunteer"));
 
             Invoker in1 = new Invoker();
-            in1.SetCommand(new AddCommand(w1, new PieceProduct("Ice cream", "8551109", 6, "cold"), 100));
-            in1.SetCommand(new AddCommand(w1, new PieceProduct("Cookies", "0000001", 10, "Crispy"), 800));
-            in1.SetCommand(new AddCommand(w1, new LiquidProduct("Oil", "0840001", 50, "Rasp"), 98040));
-            in1.SetCommand(new AddCommand(w1, new PieceProduct("Car", "9520001", 20000, "Black"), 2));
+            Task t = new Task(() =>
+            {
+                in1.SetCommand(new AddCommand(w1, new PieceProduct("Ice cream", "8551109", 6, "cold"), 100));
+                in1.SetCommand(new AddCommand(w1, new PieceProduct("Cookies", "0000001", 10, "Crispy"), 800));
+                in1.SetCommand(new AddCommand(w1, new LiquidProduct("Oil", "0840001", 50, "Rasp"), 98040));
+                in1.SetCommand(new AddCommand(w1, new PieceProduct("Car", "9520001", 20000, "Black"), 2));
+            });
+            t.Start();
+            t.Wait();
 
-            in1.Run();
+            Task t2 = new Task(() =>
+            { in1.Run(); });
+
+            t2.Start();
+            t2.Wait();
 
             var in2 = new Invoker();
             in2.SetCommand(new AddCommand(w2, new PieceProduct("Cookies", "0000001", 10, "Crispy"), 100));
@@ -49,64 +58,7 @@ namespace warehouse
             in4.SetCommand(new AddCommand(w4, new PieceProduct("Car", "9520001", 20000, "Black"), 1000));
 
             in4.Run();
-
-            /*   w1.AddProduct(new PieceProduct("Ice cream", "8551109", 6, "cold"), 100);
-               try
-               {
-                   w1.AddProduct(new PowderedProduct("Rice", "8001109", 3, "white rice"), 10000);
-               }
-               catch (Exception ex)
-               {
-                   Console.WriteLine(ex.Message);
-               }*/
-
-            /*  w1.Notify += OnAdding;
-              w1.Notify += OnAdding;*/
-
-            /* w1.AddProduct(new PieceProduct("Cookies", "0000001", 10, "Crispy"), 800);
-             try
-             {
-                 w1.AddProduct(new PowderedProduct("Flour", "0008821", 3, "White"), 100000);
-             }
-             catch (Exception ex)
-             {
-                 Console.WriteLine(ex.Message);
-             }*/
-
-            /* w1.AddProduct(new LiquidProduct("Oil", "0840001", 50, "Rasp"), 98040);
-             w1.AddProduct(new PieceProduct("Car", "9520001", 20000, "Black"), 2);
-
-             w2.Notify += OnAdding;
-             w2.Notify += OnAdding;
-
-             w2.AddProduct(new PieceProduct("Cookies", "0000001", 10, "Crispy"), 100);
-
-             try
-             {
-                 w2.AddProduct(new PowderedProduct("Flour", "0008821", 3, "White"), 10000000000);
-             }
-             catch (Exception ex)
-             {
-                 Console.WriteLine(ex.Message);
-             }
-
-             w2.AddProduct(new LiquidProduct("Oil", "0840001", 50, "Rasp"), 600);
-             w2.AddProduct(new PieceProduct("Car", "9520001", 20000, "Black"), 4);
-
-             w3.Notify += OnAdding;
-
-             w3.AddProduct(new PieceProduct("Cookies", "0000001", 10, "Crispy"), 10);
-             w3.AddProduct(new PowderedProduct("Flour", "0008821", 3, "White"), 100);
-             w3.AddProduct(new LiquidProduct("Oil", "0840001", 50, "Rasp"), 500);
-             w3.AddProduct(new PieceProduct("Car", "9520001", 20000, "Black"), 1);
-
-             w4.Notify += OnAdding;
-
-             w4.AddProduct(new PieceProduct("Cookies", "0000001", 10, "Crispy"), 602);
-             w4.AddProduct(new PowderedProduct("Flour", "0008821", 3, "White"), 85);
-             w4.AddProduct(new LiquidProduct("Oil", "0840001", 50, "Rasp"), 100);
-             w4.AddProduct(new PieceProduct("Car", "9520001", 20000, "Black"), 1000);*/
-
+                        
             Console.WriteLine(w1.Search("0840001"));
             Console.WriteLine(w1.Search("0008821"));
             Console.WriteLine(w3.Search("0008821"));
