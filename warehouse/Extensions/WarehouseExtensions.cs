@@ -1,4 +1,5 @@
-﻿using System;
+﻿using NLog;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -9,6 +10,7 @@ namespace warehouse.Extensions
 {
     public static class WarehouseExtensions
     {
+        private static Logger WExtensionsLog = LogManager.GetCurrentClassLogger();
         public static List<Product> ProductIntersection(this Warehouse sender, Warehouse w){
             return sender.ProductListing.Keys.Intersect(w.ProductListing.Keys).ToList();
         }
@@ -39,7 +41,8 @@ namespace warehouse.Extensions
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.Message);
+                WExtensionsLog.Error(ex.Message);
+                //Console.WriteLine(ex.Message);
             }
 
             return false;

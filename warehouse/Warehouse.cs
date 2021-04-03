@@ -1,8 +1,10 @@
-﻿using System;
+﻿using NLog;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using warehouse.Events;
 
@@ -10,6 +12,7 @@ namespace warehouse
 {
     public abstract class Warehouse
     {
+        private Logger WarehouseLogger = LogManager.GetCurrentClassLogger();
         public Address Location { get; }
         public long Surface { get; }
         public Employee Responsible { get; set; }
@@ -17,12 +20,14 @@ namespace warehouse
         
         public delegate void AddHandler(Warehouse sender, OnAddArg e);
         public event AddHandler Notify;
+        
         public Warehouse(Address l, long surface, Employee responsible)
         {
             Location = l;
             Surface = surface;
             Responsible = responsible;
             ProductListing = new Dictionary<Product, long>();
+            
         }
 
         
@@ -70,7 +75,8 @@ namespace warehouse
                     }
                     catch (Exception ex)
                     {
-                        Console.WriteLine(ex.Message);
+                        WarehouseLogger.Error(ex.Message);
+                        //Console.WriteLine(ex.Message);
                     }
                 }
                 else
@@ -83,7 +89,8 @@ namespace warehouse
                     }
                     catch (Exception ex)
                     {
-                        Console.WriteLine(ex.Message);
+                        WarehouseLogger.Error(ex.Message);
+                        //Console.WriteLine(ex.Message);
                     }
                 }
             }

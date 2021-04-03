@@ -1,4 +1,5 @@
-﻿using System;
+﻿using NLog;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,12 +10,13 @@ namespace warehouse.Patterns.Command
 {
     class AddCommand : ICommand
     {
+        private Logger AddCommandLogger = LogManager.GetCurrentClassLogger();
         private Warehouse W;
         private Product P;
         private long Amount;
         private delegate void AddHandler(Warehouse sender, OnAddCommandArg e);
         private event AddHandler Notify;
-      //  private readonly object clock = new object();
+       // private readonly object clock = new object();
         public AddCommand(Warehouse w, Product p, long amount)
         {
             W = w;
@@ -48,7 +50,8 @@ namespace warehouse.Patterns.Command
             }
             catch (Exception ex)
             {
-                Console.WriteLine(ex.Message);
+                AddCommandLogger.Error(ex.Message);
+                //Console.WriteLine(ex.Message);
             }
 
             W.Notify -= Program.OnAdding;

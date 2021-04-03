@@ -1,0 +1,676 @@
+warehouse.Program|2021-04-04 00:45:08.2259|3|Info|Event: Successfully added a product Ice cream in amount of 100 units to an open warehouse at time 04.04.2021 0:45:08
+warehouse.Program|2021-04-04 00:45:08.2628|3|Info|Event: Successfully added a product Cookies in amount of 800 units to an open warehouse at time 04.04.2021 0:45:08
+warehouse.Program|2021-04-04 00:45:08.2858|3|Info|Event: Successfully added a product Oil in amount of 98040 litres to an open warehouse at time 04.04.2021 0:45:08
+warehouse.Program|2021-04-04 00:45:08.2858|3|Info|Event: Successfully added a product Car in amount of 2 units to an open warehouse at time 04.04.2021 0:45:08
+warehouse.Program|2021-04-04 00:45:08.3057|1|Info|Ice cream - 6 for 1 unit. cold. Type: Piece
+warehouse.Program|2021-04-04 00:45:08.3197|1|Info|Cookies - 10 for 1 unit. Crispy. Type: Piece
+warehouse.Program|2021-04-04 00:45:08.3277|1|Info|Oil - 50 for 1 liter. Rasp. Type: Liquid
+warehouse.Program|2021-04-04 00:45:08.3277|1|Info|Car - 20000 for 1 unit. Black. Type: Piece
+warehouse.Program|2021-04-04 00:45:08.3456|3|Info|Event: Successfully added a product Cookies in amount of 100 units to an open warehouse at time 04.04.2021 0:45:08
+warehouse.Program|2021-04-04 00:45:08.3456|3|Info|Event: Tried to add a powdered product Flour in amount of 10000000000 kilograms to an open warehouse at time 04.04.2021 0:45:08
+warehouse.Patterns.Command.AddCommand|2021-04-04 00:45:08.3456|3|Error|You cannot add a powdered product to the open warehouse
+warehouse.Program|2021-04-04 00:45:08.3715|3|Info|Event: Successfully added a product Oil in amount of 600 litres to an open warehouse at time 04.04.2021 0:45:08
+warehouse.Program|2021-04-04 00:45:08.3925|3|Info|Event: Successfully added a product Car in amount of 4 units to an open warehouse at time 04.04.2021 0:45:08
+warehouse.Program|2021-04-04 00:45:08.3925|4|Info|Event: Successfully added a product Cookies in amount of 10 units to an open warehouse at time 04.04.2021 0:45:08
+warehouse.Program|2021-04-04 00:45:08.4084|4|Info|Event: Successfully added a product Flour in amount of 100 kilograms to an open warehouse at time 04.04.2021 0:45:08
+warehouse.Program|2021-04-04 00:45:08.4084|4|Info|Event: Successfully added a product Oil in amount of 500 litres to an open warehouse at time 04.04.2021 0:45:08
+warehouse.Program|2021-04-04 00:45:08.4234|4|Info|Event: Successfully added a product Car in amount of 1 units to an open warehouse at time 04.04.2021 0:45:08
+warehouse.Program|2021-04-04 00:45:08.4234|4|Info|Event: Successfully added a product Cookies in amount of 602 units to an open warehouse at time 04.04.2021 0:45:08
+warehouse.Program|2021-04-04 00:45:08.4394|4|Info|Event: Successfully added a product Flour in amount of 85 kilograms to an open warehouse at time 04.04.2021 0:45:08
+warehouse.Program|2021-04-04 00:45:08.4394|4|Info|Event: Successfully added a product Oil in amount of 100 litres to an open warehouse at time 04.04.2021 0:45:08
+warehouse.Program|2021-04-04 00:45:08.4523|4|Info|Event: Successfully added a product Car in amount of 1000 units to an open warehouse at time 04.04.2021 0:45:08
+warehouse.Program|2021-04-04 00:45:08.4523|1|Info|Searched 0840001 in w1. True
+warehouse.Program|2021-04-04 00:45:08.4523|1|Info|Searched 0008821 in w1. False
+warehouse.Program|2021-04-04 00:45:08.4733|1|Info|Searched 0008821 in w1. True
+warehouse.Program|2021-04-04 00:45:08.4733|1|Info|Overall price of products on the warehouses: 25118275
+warehouse.Program|2021-04-04 00:45:08.4982|1|Info|More than three units of product Car 4
+warehouse.Program|2021-04-04 00:45:08.5042|1|Info|More than three units of product Cookies 100
+warehouse.Program|2021-04-04 00:45:08.5042|1|Info|More than three units of product Oil 600
+warehouse.Program|2021-04-04 00:45:08.5251|1|Info|Top three in amount Oil 600
+warehouse.Program|2021-04-04 00:45:08.5311|1|Info|Top three in amount Cookies 100
+warehouse.Program|2021-04-04 00:45:08.5311|1|Info|Top three in amount Car 4
+warehouse.Program|2021-04-04 00:45:08.5311|1|Info|Unique names Car
+warehouse.Program|2021-04-04 00:45:08.5501|1|Info|Unique names Cookies
+warehouse.Program|2021-04-04 00:45:08.5501|1|Info|Unique names Flour
+warehouse.Program|2021-04-04 00:45:08.5620|1|Info|Unique names Oil
+warehouse.Program|2021-04-04 00:45:08.5620|1|Info|1 warehouse with powdered products
+warehouse.Program|2021-04-04 00:45:08.5620|1|Info|2 warehouse with powdered products
+warehouse.Program|2021-04-04 00:45:08.5830|1|Info|Average of product Ice cream 25
+warehouse.Program|2021-04-04 00:45:08.5830|1|Info|Average of product Cookies 378
+warehouse.Program|2021-04-04 00:45:08.5959|1|Info|Average of product Oil 24810
+warehouse.Program|2021-04-04 00:45:08.5959|1|Info|Average of product Car 251,75
+warehouse.Program|2021-04-04 00:45:08.5959|1|Info|Average of product Flour 46,25
+warehouse.Program|2021-04-04 00:45:08.6179|1|Info|Catalog 8551109 Ice cream - 6 for 1 unit. cold. Type: Piece
+warehouse.Program|2021-04-04 00:45:08.6179|1|Info|Catalog 0000001 Cookies - 10 for 1 unit. Crispy. Type: Piece
+warehouse.Program|2021-04-04 00:45:08.6358|1|Info|Catalog 0840001 Oil - 50 for 1 liter. Rasp. Type: Liquid
+warehouse.Program|2021-04-04 00:45:08.6458|1|Info|Catalog 9520001 Car - 20000 for 1 unit. Black. Type: Piece
+warehouse.Program|2021-04-04 00:45:08.6458|1|Info|Catalog 0008821 Flour - 3 for 1 kilogram. White. Type: Powdered
+warehouse.Program|2021-04-04 00:45:08.6598|6|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:08.6598|4|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:08.6598|6|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:08.6717|4|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:08.6717|1|Info|Time taken: 00:00:00.0247274
+warehouse.Program|2021-04-04 00:45:08.6907|6|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:08.6907|3|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:08.6907|5|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:08.6907|4|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:08.6907|6|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:08.7037|3|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:08.7037|5|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:08.7037|4|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:08.7416|1|Info|Time taken: 00:00:00.0762197
+warehouse.Program|2021-04-04 00:45:08.7416|5|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:08.7416|3|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:08.7416|6|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:08.7416|4|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:08.7585|5|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:08.7585|3|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:08.7715|6|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:08.7715|4|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:08.7834|5|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:08.7834|3|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:08.7964|6|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:08.7964|4|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:08.7964|5|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:08.8164|3|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:08.8164|6|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:08.8283|4|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:08.8533|1|Info|Time taken: 00:00:00.1817390
+warehouse.Program|2021-04-04 00:45:08.8592|6|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:08.8592|7|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:08.8592|5|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:08.8592|3|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:08.8592|4|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:08.8592|6|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:08.8862|7|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:08.8941|5|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:08.8941|3|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:08.9071|4|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:08.9071|6|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:08.9071|7|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:08.9251|5|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:08.9251|3|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:08.9370|4|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:08.9370|6|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:08.9370|7|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:08.9580|5|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:08.9580|3|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:08.9709|4|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:08.9709|6|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:08.9709|7|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:08.9899|5|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:08.9899|3|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:09.0049|4|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:09.0049|6|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:09.0188|7|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:09.0188|5|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:09.0318|3|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:09.0318|4|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:09.0318|6|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:09.0777|6|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:09.0777|1|Info|Time taken: 00:00:00.4071876
+warehouse.Program|2021-04-04 00:45:09.0777|3|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:09.0777|4|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:09.0777|5|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:09.0777|6|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:09.0777|7|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:09.0986|3|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:09.0986|4|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:09.1126|5|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:09.1126|6|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:09.1315|7|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:09.1405|3|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:09.1405|4|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:09.1405|5|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:09.1594|6|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:09.1594|7|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:09.1744|3|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:09.1744|4|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:09.1884|5|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:09.1884|6|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:09.1884|7|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:09.2083|3|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:09.2083|4|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:09.2213|5|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:09.2213|6|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:09.2372|7|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:09.2372|3|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:09.2512|4|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:09.2512|5|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:09.2662|6|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:09.2662|7|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:09.2662|3|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:09.2871|4|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:09.2871|5|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:09.3001|6|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:09.3001|7|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:09.3150|3|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:09.3150|4|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:09.3290|5|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:09.3290|6|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:09.3290|7|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:09.3499|3|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:09.3609|4|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:09.3609|5|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:09.3868|6|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:09.3998|7|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:09.4098|3|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:09.4098|4|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:09.4277|5|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:09.4277|6|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:09.4447|7|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:09.4447|3|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:09.4576|4|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:09.4576|5|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:09.4706|6|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:09.4706|7|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:09.4876|3|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:09.4876|4|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:09.5020|5|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:09.5020|6|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:09.5150|7|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:09.5150|3|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:09.5150|4|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:09.5569|3|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:09.5629|4|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:09.5629|1|Info|Time taken: 00:00:00.8932323
+warehouse.Program|2021-04-04 00:45:09.5838|6|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:09.5838|4|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:09.5838|3|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:09.5838|5|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:09.5838|7|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:09.5838|6|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:09.5998|4|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:09.6087|3|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:09.6087|5|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:09.6087|7|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:09.6317|6|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:09.6446|4|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:09.6446|3|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:09.6586|5|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:09.6586|7|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:09.6736|6|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:09.6736|4|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:09.6875|3|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:09.6875|5|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:09.6875|7|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:09.7160|4|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:09.7230|3|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:09.7230|5|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:09.7410|7|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:09.7410|4|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:09.7559|3|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:09.7559|5|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:09.7699|7|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:09.7699|4|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:09.7838|3|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:09.7838|5|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:09.7978|7|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:09.7978|4|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:09.8137|3|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:09.8137|5|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:09.8277|7|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:09.8277|4|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:09.8277|3|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:09.8497|5|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:09.8497|7|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:09.8696|4|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:09.8786|3|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:09.8905|5|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:09.8905|7|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:09.9055|4|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:09.9055|3|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:09.9055|5|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:09.9274|7|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:09.9274|4|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:09.9414|3|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:09.9414|5|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:09.9574|7|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:09.9574|4|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:09.9713|3|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:09.9713|5|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:09.9863|7|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:09.9863|4|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:10.0002|3|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:10.0002|5|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:10.0152|7|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:10.0152|4|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:10.0152|3|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:10.0361|5|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:10.0361|7|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:10.0501|4|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:10.0501|3|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:10.0641|5|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:10.0641|7|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:10.0780|4|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:10.0780|3|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:10.0950|5|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:10.0950|7|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:10.1089|4|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:10.1089|3|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:10.1089|5|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:10.1359|7|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:10.1458|4|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:10.1458|3|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:10.1608|5|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:10.1608|7|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:10.1758|4|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:10.1758|3|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:10.1907|5|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:10.1907|7|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:10.2047|4|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:10.2047|3|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:10.2206|5|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:10.2206|7|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:10.2366|4|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:10.2366|3|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:10.2516|5|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:10.2516|7|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:10.2665|4|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:10.2665|3|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:10.2665|5|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:10.2885|7|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:10.2885|4|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:10.3044|3|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:10.3044|5|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:10.3194|7|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:10.3284|4|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:10.3284|3|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:10.3433|5|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:10.3433|6|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:10.3433|7|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:10.3433|4|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:10.3653|3|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:10.3653|5|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:10.3852|6|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:10.3982|7|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:10.3982|4|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:10.4121|3|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:10.4121|5|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:10.4261|6|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:10.4261|7|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:10.4421|4|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:10.4550|3|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:10.4680|5|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:10.4680|6|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:10.4879|7|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:10.4879|4|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:10.5079|3|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:10.5169|5|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:10.5169|6|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:10.5448|4|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:10.5518|3|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:10.5518|5|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:10.5687|6|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:10.5976|1|Info|Time taken: 00:00:01.9071722
+warehouse.Program|2021-04-04 00:45:10.5976|3|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:10.5976|7|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:10.5976|5|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:10.5976|4|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:10.5976|6|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:10.6186|3|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:10.6266|7|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:10.6405|5|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:10.6405|4|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:10.6555|6|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:10.6555|3|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:10.6555|7|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:10.6774|5|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:10.6774|4|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:10.6944|6|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:10.7024|3|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:10.7024|7|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:10.7183|5|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:10.7183|4|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:10.7343|6|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:10.7343|3|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:10.7493|7|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:10.7493|5|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:10.7652|4|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:10.8061|6|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:10.8161|3|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:10.8161|7|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:10.8320|5|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:10.8320|4|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:10.8470|6|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:10.8470|3|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:45:10.8978|3|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:45:10.8978|1|Info|Time taken by Task.Factory: 00:00:02.2061915
+warehouse.Program|2021-04-04 00:47:12.4305|3|Info|Event: Successfully added a product Ice cream in amount of 100 units to an open warehouse at time 04.04.2021 0:47:12
+warehouse.Program|2021-04-04 00:47:12.4724|3|Info|Event: Successfully added a product Cookies in amount of 800 units to an open warehouse at time 04.04.2021 0:47:12
+warehouse.Program|2021-04-04 00:47:12.4913|3|Info|Event: Successfully added a product Oil in amount of 98040 litres to an open warehouse at time 04.04.2021 0:47:12
+warehouse.Program|2021-04-04 00:47:12.5053|3|Info|Event: Successfully added a product Car in amount of 2 units to an open warehouse at time 04.04.2021 0:47:12
+warehouse.Program|2021-04-04 00:47:12.5192|1|Info|Ice cream - 6 for 1 unit. cold. Type: Piece
+warehouse.Program|2021-04-04 00:47:12.5447|1|Info|Cookies - 10 for 1 unit. Crispy. Type: Piece
+warehouse.Program|2021-04-04 00:47:12.5576|1|Info|Oil - 50 for 1 liter. Rasp. Type: Liquid
+warehouse.Program|2021-04-04 00:47:12.5716|1|Info|Car - 20000 for 1 unit. Black. Type: Piece
+warehouse.Program|2021-04-04 00:47:12.5826|4|Info|Event: Successfully added a product Cookies in amount of 100 units to an open warehouse at time 04.04.2021 0:47:12
+warehouse.Program|2021-04-04 00:47:12.5945|4|Info|Event: Tried to add a powdered product Flour in amount of 10000000000 kilograms to an open warehouse at time 04.04.2021 0:47:12
+warehouse.Patterns.Command.AddCommand|2021-04-04 00:47:12.5945|4|Error|You cannot add a powdered product to the open warehouse
+warehouse.Program|2021-04-04 00:47:12.6205|4|Info|Event: Successfully added a product Oil in amount of 600 litres to an open warehouse at time 04.04.2021 0:47:12
+warehouse.Program|2021-04-04 00:47:12.6309|4|Info|Event: Successfully added a product Car in amount of 4 units to an open warehouse at time 04.04.2021 0:47:12
+warehouse.Program|2021-04-04 00:47:12.6309|4|Info|Event: Successfully added a product Cookies in amount of 10 units to an open warehouse at time 04.04.2021 0:47:12
+warehouse.Program|2021-04-04 00:47:12.6489|4|Info|Event: Successfully added a product Flour in amount of 100 kilograms to an open warehouse at time 04.04.2021 0:47:12
+warehouse.Program|2021-04-04 00:47:12.6589|4|Info|Event: Successfully added a product Oil in amount of 500 litres to an open warehouse at time 04.04.2021 0:47:12
+warehouse.Program|2021-04-04 00:47:12.6589|4|Info|Event: Successfully added a product Car in amount of 1 units to an open warehouse at time 04.04.2021 0:47:12
+warehouse.Program|2021-04-04 00:47:12.6818|3|Info|Event: Successfully added a product Cookies in amount of 602 units to an open warehouse at time 04.04.2021 0:47:12
+warehouse.Program|2021-04-04 00:47:12.6928|3|Info|Event: Successfully added a product Flour in amount of 85 kilograms to an open warehouse at time 04.04.2021 0:47:12
+warehouse.Program|2021-04-04 00:47:12.7027|3|Info|Event: Successfully added a product Oil in amount of 100 litres to an open warehouse at time 04.04.2021 0:47:12
+warehouse.Program|2021-04-04 00:47:12.7027|3|Info|Event: Successfully added a product Car in amount of 1000 units to an open warehouse at time 04.04.2021 0:47:12
+warehouse.Program|2021-04-04 00:47:12.7237|1|Info|Searched 0840001 in w1. True
+warehouse.Program|2021-04-04 00:47:12.7337|1|Info|Searched 0008821 in w1. False
+warehouse.Program|2021-04-04 00:47:12.7337|1|Info|Searched 0008821 in w1. True
+warehouse.Program|2021-04-04 00:47:12.7566|1|Info|Overall price of products on the warehouses: 25118275
+warehouse.Program|2021-04-04 00:47:12.7786|1|Info|More than three units of product Car 4
+warehouse.Program|2021-04-04 00:47:12.7866|1|Info|More than three units of product Cookies 100
+warehouse.Program|2021-04-04 00:47:12.7965|1|Info|More than three units of product Oil 600
+warehouse.Program|2021-04-04 00:47:12.8125|1|Info|Top three in amount Oil 600
+warehouse.Program|2021-04-04 00:47:12.8125|1|Info|Top three in amount Cookies 100
+warehouse.Program|2021-04-04 00:47:12.8304|1|Info|Top three in amount Car 4
+warehouse.Program|2021-04-04 00:47:12.8304|1|Info|Unique names Car
+warehouse.Program|2021-04-04 00:47:12.8494|1|Info|Unique names Cookies
+warehouse.Program|2021-04-04 00:47:12.8604|1|Info|Unique names Flour
+warehouse.Program|2021-04-04 00:47:12.8604|1|Info|Unique names Oil
+warehouse.Program|2021-04-04 00:47:12.8813|1|Info|1 warehouse with powdered products
+warehouse.Program|2021-04-04 00:47:12.8813|1|Info|2 warehouse with powdered products
+warehouse.Program|2021-04-04 00:47:12.9002|1|Info|Average of product Ice cream 25
+warehouse.Program|2021-04-04 00:47:12.9092|1|Info|Average of product Cookies 378
+warehouse.Program|2021-04-04 00:47:12.9092|1|Info|Average of product Oil 24810
+warehouse.Program|2021-04-04 00:47:12.9282|1|Info|Average of product Car 251,75
+warehouse.Program|2021-04-04 00:47:12.9372|1|Info|Average of product Flour 46,25
+warehouse.Program|2021-04-04 00:47:12.9372|1|Info|Catalog 8551109 Ice cream - 6 for 1 unit. cold. Type: Piece
+warehouse.Program|2021-04-04 00:47:12.9581|1|Info|Catalog 0000001 Cookies - 10 for 1 unit. Crispy. Type: Piece
+warehouse.Program|2021-04-04 00:47:12.9681|1|Info|Catalog 0840001 Oil - 50 for 1 liter. Rasp. Type: Liquid
+warehouse.Program|2021-04-04 00:47:12.9681|1|Info|Catalog 9520001 Car - 20000 for 1 unit. Black. Type: Piece
+warehouse.Program|2021-04-04 00:47:12.9870|1|Info|Catalog 0008821 Flour - 3 for 1 kilogram. White. Type: Powdered
+warehouse.Program|2021-04-04 00:47:12.9870|5|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:12.9870|3|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:13.0090|5|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:13.0179|3|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:13.0379|1|Info|Time taken: 00:00:00.0394136
+warehouse.Program|2021-04-04 00:47:13.0528|5|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:13.0528|4|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:13.0528|6|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:13.0528|3|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:13.0638|5|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:13.0638|4|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:13.0877|6|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:13.0957|3|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:13.1339|1|Info|Time taken: 00:00:00.1205554
+warehouse.Program|2021-04-04 00:47:13.1439|6|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:13.1439|5|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:13.1439|4|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:13.1439|3|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:13.1439|6|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:13.1649|5|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:13.1778|4|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:13.1878|3|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:13.1878|6|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:13.2048|5|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:13.2048|4|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:13.2277|3|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:13.2367|6|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:13.2367|5|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:13.2556|4|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:13.2666|3|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:13.3085|1|Info|Time taken: 00:00:00.2857577
+warehouse.Program|2021-04-04 00:47:13.3185|6|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:13.3185|4|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:13.3185|5|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:13.3185|3|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:13.3185|7|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:13.3304|6|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:13.3304|4|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:13.3504|5|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:13.3593|3|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:13.3593|7|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:13.3853|6|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:13.3972|4|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:13.4092|5|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:13.4092|3|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:13.4312|7|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:13.4461|6|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:13.4551|4|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:13.4551|5|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:13.4780|3|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:13.4870|7|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:13.4870|6|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:13.5069|4|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:13.5169|5|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:13.5169|3|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:13.5389|7|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:13.5518|6|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:13.5518|4|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:13.5728|5|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:13.6792|3|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:13.6932|7|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:13.6932|6|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:13.7520|6|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:13.7520|1|Info|Time taken: 00:00:00.7291228
+warehouse.Program|2021-04-04 00:47:13.7700|5|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:13.7700|7|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:13.7700|3|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:13.7700|4|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:13.7700|6|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:13.7840|5|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:13.7840|7|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:13.8019|3|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:13.8119|4|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:13.8119|6|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:13.8308|5|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:13.8308|7|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:13.8488|3|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:13.8488|4|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:13.8667|6|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:13.8777|5|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:13.8777|7|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:13.8987|3|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:13.9096|4|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:13.9096|6|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:13.9276|5|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:13.9276|7|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:13.9465|3|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:13.9555|4|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:13.9555|6|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:13.9775|5|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:13.9854|7|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:13.9854|3|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:14.0044|4|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:14.0044|6|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:14.0243|5|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:14.0343|7|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:14.0343|3|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:14.0522|4|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:14.0622|6|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:14.0622|5|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:14.0832|7|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:14.0931|3|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:14.0931|4|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:14.1131|6|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:14.1430|5|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:14.1430|7|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:14.1629|3|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:14.1719|4|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:14.1719|6|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:14.1949|5|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:14.2028|7|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:14.2028|3|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:14.2238|4|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:14.2368|6|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:14.2368|5|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:14.2547|7|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:14.2687|3|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:14.2687|4|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:14.2876|6|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:14.2996|5|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:14.2996|7|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:14.3175|3|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:14.3275|4|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:14.3275|6|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:14.3504|5|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:14.3604|7|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:14.4023|5|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:14.4133|7|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:14.4312|1|Info|Time taken: 00:00:01.3900203
+warehouse.Program|2021-04-04 00:47:14.4392|5|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:14.4392|4|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:14.4392|3|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:14.4392|7|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:14.4392|6|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:14.4522|5|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:14.4522|4|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:14.4711|3|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:14.4711|7|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:14.4921|6|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:14.5010|5|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:14.5010|4|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:14.5210|3|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:14.5310|7|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:14.5310|6|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:14.5511|5|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:14.5511|4|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:14.5690|3|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:14.5800|7|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:14.5800|6|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:14.6069|4|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:14.6179|3|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:14.6289|7|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:14.6289|6|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:14.6521|4|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:14.6680|3|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:14.6820|7|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:14.6959|6|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:14.7089|4|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:14.7239|3|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:14.7361|7|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:14.7511|6|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:14.7670|4|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:14.7670|3|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:14.7920|7|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:14.8079|6|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:14.8279|4|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:14.8279|3|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:14.8483|7|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:14.8613|6|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:14.8613|4|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:14.8842|3|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:14.8952|7|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:14.8952|6|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:14.9151|4|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:14.9251|3|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:14.9251|7|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:14.9461|6|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:14.9570|4|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:14.9570|3|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:14.9790|7|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:14.9889|6|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:14.9889|4|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:15.0099|3|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:15.0189|7|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:15.0318|6|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:15.0318|4|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:15.0538|3|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:15.0637|7|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:15.0637|6|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:15.0837|4|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:15.0957|3|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:15.0957|7|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:15.1176|6|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:15.1286|4|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:15.1286|3|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:15.1505|7|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:15.1615|6|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:15.1615|4|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:15.1814|3|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:15.1934|7|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:15.2024|6|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:15.2024|4|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:15.2303|3|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:15.2423|7|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:15.2512|6|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:15.2512|4|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:15.2712|3|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:15.2812|7|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:15.2812|6|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:15.3031|4|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:15.3161|3|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:15.3161|7|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:15.3380|6|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:15.3480|4|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:15.3589|3|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:15.3589|7|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:15.3799|6|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:15.3909|4|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:15.3909|3|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:15.4118|7|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:15.4218|6|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:15.4218|4|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:15.4427|3|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:15.4427|7|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:15.4667|6|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:15.4786|4|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:15.4906|3|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:15.4996|7|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:15.4996|6|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:15.5175|4|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:15.5175|3|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:15.5385|7|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:15.5385|5|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:15.5504|6|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:15.5504|4|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:15.5754|3|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:15.5863|7|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:15.5983|5|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:15.6093|6|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:15.6093|4|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:15.6292|3|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:15.6292|7|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:15.6482|5|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:15.6581|6|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:15.6581|4|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:15.6821|3|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:15.6941|7|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:15.7090|5|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:15.7190|6|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:15.7190|4|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:15.7399|3|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:15.7399|7|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:15.7639|5|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:15.7968|4|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:15.8117|3|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:15.8287|7|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:15.8446|5|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:15.8895|1|Info|Time taken: 00:00:02.8406848
+warehouse.Program|2021-04-04 00:47:15.9005|3|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:15.9005|7|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:15.9005|6|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:15.9005|5|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:15.9005|4|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:15.9145|3|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:15.9254|7|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:15.9394|6|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:15.9394|5|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:15.9613|4|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:15.9713|3|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:15.9713|7|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:15.9913|6|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:16.0012|5|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:16.0012|4|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:16.0262|3|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:16.0381|7|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:16.0481|6|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:16.0621|5|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:16.0621|4|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:16.0840|3|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:16.0950|7|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:16.0950|6|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:16.1159|5|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:16.1249|4|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:16.1249|3|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:16.1458|7|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:16.1558|6|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:16.1558|5|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:16.1798|4|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:16.1907|3|Info|Starting to compute hash
+warehouse.Program|2021-04-04 00:47:16.2471|3|Info|Ended computing hash
+warehouse.Program|2021-04-04 00:47:16.2591|1|Info|Time taken by Task.Factory: 00:00:03.1987796

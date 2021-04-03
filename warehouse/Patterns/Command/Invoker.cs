@@ -11,29 +11,28 @@ namespace warehouse.Patterns.Command
     public class Invoker
     {
               
-        private Queue<ICommand> CommandsToDo;
+        private ConcurrentQueue<ICommand> CommandsToDo;
         public Invoker()
         {
-            CommandsToDo = new Queue<ICommand>();
+            CommandsToDo = new ConcurrentQueue<ICommand>();
         }
 
         public void SetCommand(ICommand c)
         {
             CommandsToDo.Enqueue(c);
+            Run();
         }
 
         public void Run()
         {
-            /*while(CommandsToDo.TryDequeue(out ICommand c))
-            {
+            //while (CommandsToDo.IsEmpty)
+            //{
+            //    Thread.Sleep(3000);
+            //}
+            while(CommandsToDo.TryDequeue(out ICommand c))
+            {                
                 c.Execute();
-            }*/
-
-            while(CommandsToDo.Count() != 0)
-            {
-                CommandsToDo.Dequeue().Execute();
             }
-            
         }
 
     }

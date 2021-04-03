@@ -1,0 +1,4 @@
+warehouse.Patterns.Command.AddCommand|2021-04-04 00:45:08.3456|3|Error|You cannot add a powdered product to the open warehouse 
+
+warehouse.Patterns.Command.AddCommand|2021-04-04 00:47:12.5945|4|Error|You cannot add a powdered product to the open warehouse 
+

@@ -9,8 +9,6 @@ namespace warehouse
 {
     public class OpenWarehouse : Warehouse
     {
-       /* public override event Action<Warehouse, Product, long> OnAdd;
-        public override event Action<Warehouse, Product, long> OnAdd2;*/
         public OpenWarehouse(Address address, long surface, Employee responsible) : base(address, surface, responsible)
         {
         }
