@@ -1,6 +1,8 @@
 ﻿using NLog;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel;
+using System.ComponentModel.DataAnnotations;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -29,11 +31,22 @@ namespace warehouse.Extensions
             {
                 using (var writer = new StreamWriter(@fileName))
                 {
-                    writer.WriteLine("SKU code,Name,Description,Price,Amount");
+                    var ptype = typeof(Product).GetProperties();
+                    string[] firstLine = new string[ptype.Length];
+                    int i = 0;
+                    foreach(var p in ptype)
+                    {
+                        var pinf = p.GetCustomAttributes(typeof(DisplayNameAttribute), true);
+                        firstLine[i] = (pinf[0] as DisplayNameAttribute).DisplayName;
+                        i++;
+                    }
+
+                    writer.WriteLine(string.Join(",", firstLine));
 
                     foreach (KeyValuePair<Product, long> p in sender.ProductListing)
                     {
-                        writer.WriteLine($"{p.Key.Code},{p.Key.Name},{p.Key.Description},{p.Key.Price},{p.Value} {p.Key.Unit}");
+                        writer.WriteLine($"{p.Key.Name},{p.Key.Code},{p.Key.Price},{p.Key.Description},{p.Key.Unit}");
+                        //writer.WriteLine($"{p.Key.Name},{p.Key.Code},{p.Key.Price},{p.Key.Description},{p.Value},{p.Key.Unit}");
                     }
                 }
 

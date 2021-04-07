@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
+using System.Reflection;
 using System.Security.Cryptography;
 using System.Text;
 using System.Threading;
@@ -35,15 +36,13 @@ namespace warehouse
                 in1.SetCommand(new AddCommand(w1, new PieceProduct("Car", "9520001", 20000, "Black"), 2));
             }, ct1);
 
-            task1.Wait();
-
             foreach(Product p in w1.ProductListing.Keys)
             {
                 //Console.WriteLine(p);
                 log.Info(p);
             }
 
-            cs1.Cancel();
+            
             var cs2 = new CancellationTokenSource();
             var ct2 = cs2.Token;
             var in2 = new Invoker();
@@ -54,9 +53,8 @@ namespace warehouse
                 in2.SetCommand(new AddCommand(w2, new LiquidProduct("Oil", "0840001", 50, "Rasp"), 600));
                 in2.SetCommand(new AddCommand(w2, new PieceProduct("Car", "9520001", 20000, "Black"), 4));
             }, ct2);
-            task2.Wait();
-            cs2.Cancel();
-
+            
+            
             var cs3 = new CancellationTokenSource();
             var ct3 = cs3.Token;
             var in3 = new Invoker();
@@ -67,9 +65,7 @@ namespace warehouse
                 in3.SetCommand(new AddCommand(w3, new LiquidProduct("Oil", "0840001", 50, "Rasp"), 500));
                 in3.SetCommand(new AddCommand(w3, new PieceProduct("Car", "9520001", 20000, "Black"), 1));
             }, ct3);
-            task3.Wait();
-            cs3.Cancel();
-
+            
             var cs4 = new CancellationTokenSource();
             var ct4 = cs4.Token;
             var in4 = new Invoker();
@@ -80,8 +76,8 @@ namespace warehouse
                 in4.SetCommand(new AddCommand(w4, new LiquidProduct("Oil", "0840001", 50, "Rasp"), 100));
                 in4.SetCommand(new AddCommand(w4, new PieceProduct("Car", "9520001", 20000, "Black"), 1000));
             }, ct4);
-            task4.Wait();
-            cs4.Cancel();
+
+            Task.WaitAll(task1, task2, task3, task4);
 
             log.Info($"Searched 0840001 in w1. {w1.Search("0840001")}");
             log.Info($"Searched 0008821 in w1. {w1.Search("0008821")}");
@@ -170,6 +166,22 @@ namespace warehouse
             log.Info($"Time taken by Task.Factory: {s.Elapsed}");
             //Console.WriteLine($"Time taken by Task.Factory: {s.Elapsed}");
 
+            cs1.Cancel();
+            cs2.Cancel();
+            cs3.Cancel();
+            cs4.Cancel();
+
+            var assembly = Assembly.LoadFrom(@"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.7.2\mscorlib.dll");
+            foreach (var c in assembly.GetTypes().Where(p => p.FullName.Contains("System.Collections.Generic") && p.IsClass).ToList())
+            {
+                log.Info(c.Name);
+            }
+
+            var t = typeof(string);
+            foreach(var inter in t.GetInterfaces())
+            {
+                log.Info(inter.Name);
+            }
         }
 
         public static void OnAdding(Warehouse sender, OnAddArg e)

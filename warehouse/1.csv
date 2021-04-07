@@ -1,5 +1,5 @@
-SKU code,Name,Description,Price,Amount
-0000001,Cookies,Crispy,10,10 units
-0008821,Flour,White,3,100 kilograms
-0840001,Oil,Rasp,50,500 litres
-9520001,Car,Black,20000,1 units
+Product name,SKU Code,Price,Description,Unit
+Cookies,0000001,10,Crispy,units
+Flour,0008821,3,White,kilograms
+Oil,0840001,50,Rasp,litres
+Car,9520001,20000,Black,units
