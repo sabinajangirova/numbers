@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "elevator", "elevator\elevat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "warehouse", "warehouse\warehouse.csproj", "{4DADAE54-0759-49AD-AE95-7EEB0B095A34}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "db", "db\db.csproj", "{4DBCAA7C-8411-403A-ADC4-E9F0631EA373}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{4DADAE54-0759-49AD-AE95-7EEB0B095A34}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4DADAE54-0759-49AD-AE95-7EEB0B095A34}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4DADAE54-0759-49AD-AE95-7EEB0B095A34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DBCAA7C-8411-403A-ADC4-E9F0631EA373}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DBCAA7C-8411-403A-ADC4-E9F0631EA373}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DBCAA7C-8411-403A-ADC4-E9F0631EA373}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DBCAA7C-8411-403A-ADC4-E9F0631EA373}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
